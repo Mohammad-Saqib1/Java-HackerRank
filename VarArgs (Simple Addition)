@@ -1,0 +1,15 @@
+class Add{
+    public void add(int ...arr){
+        int sum=0;
+        String seperator="";
+        for(int i:arr){
+            sum=sum+i;
+            System.out.print(seperator+i);
+            seperator="+";           
+            
+        }
+        System.out.println("="+sum);
+        
+        
+    }
+}
